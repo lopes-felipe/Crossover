@@ -1,0 +1,10 @@
+c:\users\felipe.lopes\documents\visual studio 2015\Projects\Crossover Message Logger\MessageLogger.Test\bin\Debug\MessageLogger.Test.dll.config
+c:\users\felipe.lopes\documents\visual studio 2015\Projects\Crossover Message Logger\MessageLogger.Test\bin\Debug\MessageLogger.Test.dll
+c:\users\felipe.lopes\documents\visual studio 2015\Projects\Crossover Message Logger\MessageLogger.Test\bin\Debug\MessageLogger.Test.pdb
+c:\users\felipe.lopes\documents\visual studio 2015\Projects\Crossover Message Logger\MessageLogger.Test\bin\Debug\MessageLogger.dll
+c:\users\felipe.lopes\documents\visual studio 2015\Projects\Crossover Message Logger\MessageLogger.Test\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+c:\users\felipe.lopes\documents\visual studio 2015\Projects\Crossover Message Logger\MessageLogger.Test\bin\Debug\MessageLogger.pdb
+c:\users\felipe.lopes\documents\visual studio 2015\Projects\Crossover Message Logger\MessageLogger.Test\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.xml
+c:\users\felipe.lopes\documents\visual studio 2015\Projects\Crossover Message Logger\MessageLogger.Test\obj\Debug\MessageLogger.Test.csprojResolveAssemblyReference.cache
+c:\users\felipe.lopes\documents\visual studio 2015\Projects\Crossover Message Logger\MessageLogger.Test\obj\Debug\MessageLogger.Test.dll
+c:\users\felipe.lopes\documents\visual studio 2015\Projects\Crossover Message Logger\MessageLogger.Test\obj\Debug\MessageLogger.Test.pdb

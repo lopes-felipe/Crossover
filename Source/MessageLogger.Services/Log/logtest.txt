@@ -1,0 +1,39 @@
+SessionManager::Authenticate - Starting authentication.
+SessionManager::Authenticate - Authentication successfully finished.
+SessionManager::Authenticate - Starting authentication.
+SessionManager::Authenticate - Authentication successfully finished.
+SessionManager::Authenticate - Starting authentication.
+SessionManager::Authenticate - Authentication successfully finished.
+SessionManager::Authenticate - Starting authentication.
+SessionManager::Authenticate - Authentication successfully finished.
+SessionManager::Authenticate - Starting authentication.
+SessionManager::Authenticate - Authentication successfully finished.
+SessionManager::Authenticate - Starting authentication.
+SessionManager::Authenticate - Authentication successfully finished.
+SessionManager::Authenticate - Starting authentication.
+SessionManager::Authenticate - Authentication successfully finished.
+DafaultController::Auth - MessageLogger.Exceptions.RateLimitExceededException: Rate limit exceeded
+   at MessageLogger.Business.ApplicationManager.RegisterCall(String applicationID) in C:\Users\felipe.lopes\Documents\Visual Studio 2015\Projects\Crossover Message Logger\MessageLogger\Business\ApplicationManager.cs:line 77
+   at MessageLogger.Services.Controllers.DefaultController.Authenticate(AuthenticateRequest request, SqlConnection sqlConnection) in C:\Users\felipe.lopes\Documents\Visual Studio 2015\Projects\Crossover Message Logger\MessageLogger.Services\Controllers\DefaultController.cs:line 99
+   at MessageLogger.Services.Controllers.DefaultController.Auth(AuthenticateRequest request) in C:\Users\felipe.lopes\Documents\Visual Studio 2015\Projects\Crossover Message Logger\MessageLogger.Services\Controllers\DefaultController.cs:line 45.
+SessionManager::Authenticate - Starting authentication.
+SessionManager::Authenticate - Authentication successfully finished.
+DafaultController::Log - System.Data.SqlClient.SqlException (0x80131904): The INSERT statement conflicted with the FOREIGN KEY constraint "FK__applicati__appli__32E0915F". The conflict occurred in database "Crossover", table "dbo.application", column 'application_id'.
+The statement has been terminated.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean asyncWrite)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean asyncWrite)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at MessageLogger.Data.ApplicationCallDataAccess.Create(ApplicationCall entity) in C:\Users\felipe.lopes\Documents\Visual Studio 2015\Projects\Crossover Message Logger\MessageLogger\Data\ApplicationCallDataAccess.cs:line 34
+   at MessageLogger.Business.ApplicationManager.RegisterCall(String applicationID) in C:\Users\felipe.lopes\Documents\Visual Studio 2015\Projects\Crossover Message Logger\MessageLogger\Business\ApplicationManager.cs:line 50
+   at MessageLogger.Services.Controllers.DefaultController.Log(AuthenticateRequest authentication, LogRequest request) in C:\Users\felipe.lopes\Documents\Visual Studio 2015\Projects\Crossover Message Logger\MessageLogger.Services\Controllers\DefaultController.cs:line 178
+ClientConnectionId:e6ce14b8-ab84-4e39-803d-e74c39eb024e
+Error Number:547,State:0,Class:16.
+DafaultController::Log - MessageLogger.Exceptions.AuthenticationException: Invalid ApplicationID
+   at MessageLogger.Business.ApplicationManager.RegisterCall(String applicationID) in C:\Users\felipe.lopes\Documents\Visual Studio 2015\Projects\Crossover Message Logger\MessageLogger\Business\ApplicationManager.cs:line 54
+   at MessageLogger.Services.Controllers.DefaultController.Log(AuthenticateRequest authentication, LogRequest request) in C:\Users\felipe.lopes\Documents\Visual Studio 2015\Projects\Crossover Message Logger\MessageLogger.Services\Controllers\DefaultController.cs:line 178.

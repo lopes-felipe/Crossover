@@ -1,0 +1,6 @@
+c:\users\felipe.lopes\documents\visual studio 2015\Projects\Crossover Message Logger\MessageLogger\bin\Debug\MessageLogger.dll
+c:\users\felipe.lopes\documents\visual studio 2015\Projects\Crossover Message Logger\MessageLogger\bin\Debug\MessageLogger.pdb
+c:\users\felipe.lopes\documents\visual studio 2015\Projects\Crossover Message Logger\MessageLogger\obj\Debug\MessageLogger.dll
+c:\users\felipe.lopes\documents\visual studio 2015\Projects\Crossover Message Logger\MessageLogger\obj\Debug\MessageLogger.pdb
+c:\users\felipe.lopes\documents\visual studio 2015\Projects\Crossover Message Logger\MessageLogger\bin\Debug\MessageLogger.dll.config
+C:\Users\felipe.lopes\Documents\Visual Studio 2015\Projects\Crossover Message Logger\MessageLogger\obj\Debug\MessageLogger.csprojResolveAssemblyReference.cache
